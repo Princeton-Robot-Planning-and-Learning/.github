@@ -21,6 +21,8 @@ These repositories are meant to be actively maintained and reused across multipl
 
 ## Dependency Structure
 
+An edge A->B means that repository A depends on repository B.
+
 <img width="1602" height="1692" alt="deps" src="https://github.com/user-attachments/assets/6df0b252-3f6b-4c5f-bb64-869e9eb52385" />
 
 <details>
