@@ -1,8 +1,8 @@
-## PRPL Code
+# PRPL Code
 
 Code by the Princeton Robot Planning and Learning group (PI: [Tom Silver](https://tomsilver.github.io/)).
 
-### Repositories
+## Repositories
 
 These repositories are meant to be actively maintained and reused across multiple projects.
 
@@ -19,7 +19,7 @@ These repositories are meant to be actively maintained and reused across multipl
 * [pybullet-helpers](https://github.com/tomsilver/pybullet-helpers): Utilities and data structures for planning and simulation with PyBullet.
 * [prbench](https://github.com/Princeton-Robot-Planning-and-Learning/prbench): Benchmark environments for physical reasoning with robots.
 
-### Dependency Structure
+## Dependency Structure
 
 <img width="1602" height="1692" alt="deps" src="https://github.com/user-attachments/assets/6df0b252-3f6b-4c5f-bb64-869e9eb52385" />
 
@@ -58,8 +58,7 @@ To update, make changes to the content below, save to `deps.dot`, and run ```dot
 </details>
 
 
-
-### Why So Many Repositories?
+## Why So Many Repositories?
 
 Previously, we developed a monorepo called [predicators](https://github.com/Learning-and-Intelligent-Systems/predicators). There are advantages and disadvantages of a monorepo versus our current setup.
 
