@@ -18,12 +18,13 @@ These repositories are meant to be actively maintained and reused across multipl
 * [bilevel-planning](https://github.com/tomsilver/bilevel-planning): Code for bilevel planning. Does not include learning or any environment-specific models.
 * [pybullet-helpers](https://github.com/tomsilver/pybullet-helpers): Utilities and data structures for planning and simulation with PyBullet.
 * [prbench](https://github.com/Princeton-Robot-Planning-and-Learning/prbench): Benchmark environments for physical reasoning with robots.
+* [prbench-models](https://github.com/Princeton-Robot-Planning-and-Learning/prbench_models): Models for PRBench baselines.
 
 ## Dependency Structure
 
 An edge A->B means that repository A depends on repository B.
 
-<img width="1602" height="1692" alt="deps" src="https://github.com/user-attachments/assets/6df0b252-3f6b-4c5f-bb64-869e9eb52385" />
+<img width="2147" height="1467" alt="deps" src="https://github.com/user-attachments/assets/505c59d0-d31b-489b-8074-70bd75b1b3ea" />
 
 <details>
 
@@ -52,6 +53,8 @@ digraph deps {
   prbench -> prpl_utils;
   prbench -> tomsgeoms2d;
   prbench -> pybullet_helpers;
+
+  prbench_models -> prbench;
 }
 ```
 
