@@ -18,7 +18,7 @@ These repositories are meant to be actively maintained and reused across multipl
 * [bilevel-planning](https://github.com/tomsilver/bilevel-planning): Code for bilevel planning. Does not include learning or any environment-specific models.
 * [pybullet-helpers](https://github.com/tomsilver/pybullet-helpers): Utilities and data structures for planning and simulation with PyBullet.
 * [prbench](https://github.com/Princeton-Robot-Planning-and-Learning/prbench): Benchmark environments for physical reasoning with robots.
-* [prbench-models](https://github.com/Princeton-Robot-Planning-and-Learning/prbench_models): Models for PRBench baselines.
+* [prbench-models](https://github.com/Princeton-Robot-Planning-and-Learning/prbench-models): Models for PRBench baselines.
 
 ## Dependency Structure
 
